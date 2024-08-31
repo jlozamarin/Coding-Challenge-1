@@ -24,7 +24,7 @@ console.log(products, productDetails);
 
 // Task 3: Assignment Operators
 
-let accountBalance = 5000; // intiial balance
+let accountBalance = 5000;
 console.log("Initial balance is: $" + accountBalance); // Output: 5000
 accountBalance += 250;
 console.log("After adding 250, account balance is: $" + accountBalance); // Output: 5250
@@ -36,3 +36,22 @@ accountBalance /= 2;
 console.log("After dividing by 2, account balance is: $" + accountBalance.toFixed(2)); // Output: 2790.00
 accountBalance %= 50;
 console.log("After modulus operation, account balance is: $" + accountBalance.toFixed(2)); // Output: 40.00
+
+
+// Task 4: Comparison Operators
+
+let employeeScore1 = 75;
+let employeeScore2 = 87;
+
+// Comparison > 
+console.log(`Is employeeScore1 greater than employeeScore2? ${employeeScore1 > employeeScore2}`); // Output: false
+// Comparison < 
+console.log(`Is employeeScore1 less than employeeScore2? ${employeeScore1 < employeeScore2}`); // Output: true
+// Comparison >= 
+console.log(`Is employeeScore1 greater than or equal to employeeScore2? ${employeeScore1 >= employeeScore2}`); // Output: false
+// Comparison <= 
+console.log(`Is employeeScore1 less than or equal to employeeScore2? ${employeeScore1 <= employeeScore2}`); // Output: true
+// Comparison === 
+console.log(`Is employeeScore1 equal to employeeScore2? ${employeeScore1 === employeeScore2}`); // Output: false
+// Comparison !== 
+console.log(`Is employeeScore1 not equal to employeeScore2? ${employeeScore1 !== employeeScore2}`); // Output: true
