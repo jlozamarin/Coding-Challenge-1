@@ -65,7 +65,7 @@ let hasPermission = true;
 
 // Check access using (&&)
 let canAccessConferenceRoom = hasKeyCard && hasPermission;
-console.log(`Can access the conference room? ${canAccessCondferenceRoom}`); // Output: false
+console.log(`Can access the conference room? ${canAccessConferenceRoom}`); // Output: false
 // Check access using (||)
 let canAccessCafeteria = hasKeyCard || hasPermission;
 console.log(`Can access the cafeteria? ${canAccessCafeteria}`); // Output: true
