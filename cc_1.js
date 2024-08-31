@@ -16,7 +16,7 @@ let products = ["Matte Lipstick","Liquid Foundation","Eyeshadow Palette"];
 const productDetails = {
     name: products,
     price: 75.00,
-    inStock: yes,
+    inStock: true,
 }
 
 console.log(products, productDetails);
