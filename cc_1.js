@@ -69,6 +69,6 @@ console.log(`Can access the conference room? ${canAccessCondferenceRoom}`); // O
 // Check access using (||)
 let canAccessCafeteria = hasKeyCard || hasPermission;
 console.log(`Can access the cafeteria? ${canAccessCafeteria}`); // Output: true
-// Check access using (!) operator to reverse a boolean value
+// Check access using (!) to reverse a boolean value
 let cannotAccessConferenceRoom = !canAccessConferenceRoom;
 console.log(`Cannot access the main area? ${cannotAccessMainArea}`); // Output: true
