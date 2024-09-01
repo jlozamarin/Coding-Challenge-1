@@ -26,16 +26,16 @@ console.log(products, productDetails);
 
 let accountBalance = 50000;
 console.log("Initial balance is: $" + accountBalance);
-accountBalance += 2500;
-console.log("After adding 250, account balance is: $" + accountBalance); // Output: 52500
+accountBalance = accountBalance + 2500;
+console.log("After adding 2500, account balance is: $" + accountBalance); // Output: 52500
 accountBalance -= 6000;
-console.log("After subtracting 600, account balance is: $" + accountBalance); // Output: 46500
+console.log("After subtracting 6000, account balance is: $" + accountBalance); // Output: 46500
 accountBalance *= 1.2;
-console.log("After multiplying by 1.2, account balance is: $" + accountBalance.toFixed(2)); // Output: 55800.00
+console.log("After multiplying by 1.2, account balance is: $" + accountBalance); // Output: 55800
 accountBalance /= 2;
-console.log("After dividing by 2, account balance is: $" + accountBalance.toFixed(2)); // Output: 27900.00
+console.log("After dividing by 2, account balance is: $" + accountBalance); // Output: 27900
 accountBalance %= 50;
-console.log("After modulus operation, account balance is: $" + accountBalance.toFixed(2)); // Output: 0.00
+console.log("After modulus operation, account balance is: $" + accountBalance); // Output: 0
 
 
 // Task 4: Comparison Operators
