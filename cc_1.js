@@ -28,13 +28,13 @@ let accountBalance = 50000;
 console.log("Initial balance is: $" + accountBalance);
 accountBalance = accountBalance + 2500;
 console.log("After adding 2500, account balance is: $" + accountBalance); // Output: 52500
-accountBalance -= 6000;
+accountBalance = accountBalance - 6000;
 console.log("After subtracting 6000, account balance is: $" + accountBalance); // Output: 46500
-accountBalance *= 1.2;
+accountBalance = accountBalance * 1.2;
 console.log("After multiplying by 1.2, account balance is: $" + accountBalance); // Output: 55800
-accountBalance /= 2;
+accountBalance = accountBalance / 2;
 console.log("After dividing by 2, account balance is: $" + accountBalance); // Output: 27900
-accountBalance %= 50;
+accountBalance = accountBalance % 50;
 console.log("After modulus operation, account balance is: $" + accountBalance); // Output: 0
 
 
@@ -69,6 +69,6 @@ console.log(`Can access the conference room? ${canAccessConferenceRoom}`); // Ou
 // Check access using (||)
 let canAccessCafeteria = hasKeyCard || hasPermission;
 console.log(`Can access the cafeteria? ${canAccessCafeteria}`); // Output: true
-// Check access using (!) to reverse a boolean value
+// Check access using (!) to reverse boolean value
 let cannotAccessConferenceRoom = !canAccessConferenceRoom;
 console.log(`Cannot access the conference room? ${cannotAccessConferenceRoom}`); // Output: true
