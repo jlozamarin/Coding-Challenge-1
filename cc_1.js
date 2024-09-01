@@ -63,12 +63,12 @@ console.log(`Is employeeScore1 not equal to employeeScore2? ${employeeScore1 !==
 let hasKeyCard = false;
 let hasPermission = true; 
 
-// Check access using (&&)
+// Check access using &&
 let canAccessConferenceRoom = hasKeyCard && hasPermission;
 console.log(`Can access the conference room? ${canAccessConferenceRoom}`); // Output: false
-// Check access using (||)
+// Check access using ||
 let canAccessCafeteria = hasKeyCard || hasPermission;
 console.log(`Can access the cafeteria? ${canAccessCafeteria}`); // Output: true
-// Check access using (!) to reverse boolean value
+// Check access using ! to reverse boolean value
 let cannotAccessConferenceRoom = !canAccessConferenceRoom;
 console.log(`Cannot access the conference room? ${cannotAccessConferenceRoom}`); // Output: true
